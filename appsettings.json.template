@@ -1,0 +1,15 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=SERVER;Database=DB;User Id=USER;Password=PASSWORD"
+  },
+  "MyService": {
+    "Endpoint": "https://api.example.com",
+    "ApiKey": "<PUT_YOUR_API_KEY_HERE>"
+  }
+}
