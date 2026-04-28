@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div className="container py-5">
       <header className="mb-4">
-        <h1 className="display-5">John (Jack) David Young</h1>
+        <h1 className="display-5">John (Jack) Young</h1>
         <p className="lead">Welcome to my portfolio.</p>
       </header>
 
@@ -13,6 +13,7 @@ export default function App() {
           Here you can find my <a href="#">resume</a>,{" "}
           <a href="#">achievements</a> and what I like to do in my{" "}
           <a href="#">free time</a>.
+          Baba booey
         </p>
       </section>
 
@@ -29,7 +30,7 @@ export default function App() {
       </section>
 
       <footer className="text-muted mt-5">
-        <small>© {new Date().getFullYear()} John David Young</small>
+        <small>Â© {new Date().getFullYear()} John David Young</small>
       </footer>
     </div>
   );
