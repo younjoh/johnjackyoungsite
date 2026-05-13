@@ -1,4 +1,5 @@
 import React from "react";
+import monkeyImg from "../images/monkey.jpg";
 
 export default function FreeTime() {
   return (
@@ -16,7 +17,7 @@ export default function FreeTime() {
 
           <div className="col-sm-6 col-lg-4">
             <div className="card border-0 shadow-sm">
-              <img src="monkey.jpg" alt="Monkey in nature" className="gallery-img card-img-top" />
+              <img src={monkeyImg} alt="Monkey in nature" className="gallery-img card-img-top" />
               <div className="card-body">
                 <p className="card-text text-muted small">Add a caption here</p>
               </div>

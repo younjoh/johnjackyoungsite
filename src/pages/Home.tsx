@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import painImg from "../images/pain.jpg";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
 
         <Link to="/free-time">
           <img
-            src="pain.jpg"
+            src={painImg}
             alt="Image"
             className="img-fluid rounded mt-3"
             style={{ maxHeight: 250 }}
