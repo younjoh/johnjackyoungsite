@@ -6,7 +6,7 @@ export default function Achievements() {
       <div className="bg-dark text-white py-5 text-center">
         <div className="container">
           <h1 className="display-5 fw-bold">Achievements</h1>
-          <p className="lead">Things I'm proud of.</p>
+          <p className="lead">Things I'm proud of</p>
         </div>
       </div>
 
