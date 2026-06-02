@@ -64,7 +64,7 @@ export default function Achievements() {
       </div>
 
       <footer className="text-muted text-center py-4 border-top">
-        <small>&copy; {new Date().getFullYear()} John David Young</small>
+        <small>&copy; {new Date().getFullYear()} John Jack Young</small>
       </footer>
     </>
   );
