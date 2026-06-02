@@ -1,4 +1,8 @@
 import React from "react";
+import azureImg from "../images/microsoft-azure-developer-associate-official-training-certification.png";
+import seDegreeImg from "../images/Iowa_State_University_seal.svg.png";
+import mbaAdmittanceImg from "../images/cuanschutz_c_clr.jpg";
+import agenticAIImg from "../images/aidojo.png";
 
 interface Achievement {
   date: string
@@ -9,27 +13,27 @@ interface Achievement {
 
 export default function Achievements() {
   const azure: Achievement = {
-    date: "5/14/2026", 
-    title: "Az 204", 
-    imageUrl: "../images/microsoft-azure-developer-associate-official-training-certification.png", 
+    date: "5/14/2026",
+    title: "Az 204",
+    imageUrl: azureImg,
     description: "I obtained the Azure Developer Associate certificate. Az 204"
   };
   const seDegree: Achievement = {
-    date: "5/14/2020", 
-    title: "Bachelor's in Software Engineering", 
-    imageUrl: "../images/Iowa_State_University_seal.svg.png", 
+    date: "5/14/2020",
+    title: "Bachelor's in Software Engineering",
+    imageUrl: seDegreeImg,
     description: "I received my bachelor's in Software Engineering from Iowa State in 2020"
   };
   const mbaAdmittance: Achievement = {
-    date: "10/20/2025", 
-    title: "MBA in Information Sciences", 
-    imageUrl: "../images/cuanschutz_c_clr.jpg", 
+    date: "10/20/2025",
+    title: "MBA in Information Sciences",
+    imageUrl: mbaAdmittanceImg,
     description: "I was admitted into UC Denver Anschutz for my MBA degree with a focus in either information sciences or AI. My expected graduation date is 2029. I currently have a 4.0 gpa"
   };
   const agenticAI: Achievement = {
-    date: "10/20/2025", 
-    title: "AI Agentic Certification", 
-    imageUrl: "../images/aidojo.png", 
+    date: "10/20/2025",
+    title: "AI Agentic Certification",
+    imageUrl: agenticAIImg,
     description: "I completed Optum's AI agentic course with a perfect score. I utilized prompt engineering in order to create a health care claims approval agent using synthetic data"
   };
   const Achievements = [azure, seDegree, mbaAdmittance, agenticAI];
